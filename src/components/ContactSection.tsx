@@ -34,8 +34,8 @@ const ContactSection = () => {
             className="space-y-6"
           >
             {[
-              { icon: MapPin, label: "Location", value: "India" },
-              { icon: Mail, label: "Email", value: "sonaksh@email.com" },
+              { icon: MapPin, label: "Location", value: "India | USA" },
+              { icon: Mail, label: "Email", value: "sonakshnandan@gmail.com" },
               { icon: Phone, label: "Call", value: "+91 XXXXX XXXXX" },
             ].map(({ icon: Icon, label, value }) => (
               <div key={label} className="flex gap-3 items-start">

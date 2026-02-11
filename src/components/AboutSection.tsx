@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import profileImg from "@/assets/profile.jpg";
 
 const skills = [
-  { name: "HTML/CSS", level: 95 },
-  { name: "JavaScript", level: 85 },
-  { name: "React", level: 80 },
-  { name: "UI/UX Design", level: 90 },
-  { name: "Python / AI", level: 75 },
-  { name: "Figma", level: 85 },
+  { name: "Chess", level: 65 },
+  { name: "Martial Arts", level: 55 },
+  { name: "Speed Maths", level: 60 },
+  { name: "Website Designing", level: 60 },
+  { name: "Python / AI", level: 65 },
+  { name: "Artificial Intellegence", level: 65 },
 ];
 
 const AboutSection = () => {
@@ -41,16 +41,16 @@ const AboutSection = () => {
               Web Designer & AI Enthusiast
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              I'm Sonaksh Nandan — a passionate web designer, entrepreneur, student, and AI enthusiast.
+              I'm Sonaksh Nandan — a passionate student, web designer, entrepreneur, and AI enthusiast.
               I love creating beautiful digital experiences and exploring the intersection of design and technology.
               Currently building innovative projects and expanding my skillset in AI and modern web technologies.
             </p>
 
             <div className="grid grid-cols-2 gap-3 mt-6 text-sm">
               {[
-                ["Degree", "Student"],
-                ["City", "India"],
-                ["Email", "sonaksh@email.com"],
+                ["Career", "Student"],
+                ["Country", "India | USA"],
+                ["Email", "sonakshnandan@gmail.com"],
                 ["Freelance", "Available"],
               ].map(([label, value]) => (
                 <div key={label}>
